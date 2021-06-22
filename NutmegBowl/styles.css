@@ -1,0 +1,961 @@
+/*Header styles */
+
+
+body{
+    background-image: url(img/lane.jpg);
+}
+
+#background{
+    display: none;
+}
+img.banner2{
+    position: absolute;
+    top: 148%;
+    left: 0%;
+    width: 100%;
+    z-index: -1;
+}
+
+div.cover1{
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    background-color: black;
+    left: 0;
+}
+
+
+header{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color:black ;
+    font-size: 8px;
+    margin: 0%;
+    top: 0%;
+    left: 0%;
+}
+
+header h1{
+    color: white;
+    margin: 12px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+header a{
+  text-decoration: none;  
+}
+header img.location{
+    width: 8%;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+
+header img.phone{
+    width: 8%;
+    position: absolute;
+    left: 88%;
+    top: 20%;
+}
+
+header h1 span{
+    display: inline;
+}
+
+header h1 span:nth-child(odd){
+    border: solid #1c6c58;
+    box-shadow: 2px 2px 7px #1c6c58;
+    background-color: #1c6c58;
+}
+
+header h1 span:nth-child(even){
+    border: solid #f44739;
+    box-shadow: 2px 2px 7px #f44739;
+    background-color: #f44739;
+}
+
+/* Navigation bar styles */
+
+
+nav{
+    position: fixed;
+    top: 6%;
+    display: inline-block;
+    width: 80%;
+    left: 10%
+}
+
+nav ul{
+    text-align: center;
+    background-color:black ;
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+
+nav li{
+    display: inline;
+    margin-left: 5%;
+    color: white;
+}
+
+nav li a{
+    color: white;
+}
+
+
+
+/* Banner styles */
+article.banner img
+{
+    position: absolute;
+    width: 100%;
+    top: 8%;
+    left: 0%;
+    z-index: -1;
+
+}
+
+
+button.reserve{
+    position: absolute;
+    z-index:-1;
+    top: 268px;
+    left: 35%;
+    border-radius: 8px;
+    padding-right:20px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: black;
+    border: solid yellow;
+    box-shadow: 2px 2px 8px yellow;
+
+}
+
+button img{
+    width: 15px;
+    display: inline;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+
+/* Hours div*/
+div.hours{
+    background-color: black;
+    position: absolute;
+    top: 400px;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px greenyellow;
+    border: solid green;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+div.hours article{
+    display: inline-block;
+    margin: 5px 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right:  10px;
+    
+}
+
+div.hours article table, h2{
+    color: white;
+    opacity: 1;
+}
+
+div.hours article h1{
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    margin: 0;
+    opacity: 1;
+}
+
+/* Announcements div */
+div.announcements{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 108%;
+    left: 0;
+    color: aliceblue;
+    text-align: center;
+    z-index: -1;
+}
+div.announcements div{
+    padding-left: 15%;
+}
+
+
+div.announcements h1{
+    -webkit-text-stroke: 0.5px red;
+    text-shadow: 2px 2px 8px pink;
+    padding: 0%;
+    font-size: 2.3em;
+}
+
+div.announcements li{
+    list-style-type: none;
+    margin-top: 15px;
+    border: solid blue;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px blueviolet;
+}
+
+div.announcements ul{
+    font-size: 1.3em;
+    padding: 0;
+
+}
+div.announcements li a{
+    text-decoration: underline;
+    color: white;
+}
+
+/* PARTIES DIV*/
+
+div.parties{
+    background: yellow;
+    position: absolute;
+    top: 150%;
+    border-radius: 10px;
+    opacity: 0.8;
+    left: 5%;
+    border: solid #FF0000;
+    text-align: center;
+    z-index: -1;
+}
+
+
+div.parties h1, div.parties p {
+    text-align: center;
+}
+
+div.parties p{
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+div.parties h1 a{
+    color: black;
+    text-decoration: underline;
+}
+
+
+button.toParties{
+    position: absolute;
+    top: 170%;
+    left: 38%;
+    z-index: -1;
+
+}
+
+/*Footer div*/
+div.footer{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    top: 200%;
+    left: 0;
+    text-align: center;
+    color: aliceblue;
+    height: 250px;
+    font-size: 13px;
+}
+
+div.footer ul{
+    list-style: none;
+
+}
+
+div.footer ul a{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+
+div.footer img{
+    margin-top: 20px;
+    width: 75px;
+    border-radius: 50px;
+}
+
+/* EVENTS DIV*/
+
+div.events{
+    background: black;
+    position: absolute;
+    top: 178%;
+    border-radius: 10px;
+    opacity: 0.8;
+    left: 5%;
+    border: solid #FF0000;
+    text-align: center;
+    z-index: -1;
+}
+
+
+div.events h1{
+    padding: 5px 5px;
+}
+
+div.events h1, div.events p {
+    text-align: center;
+}
+
+div.events p{
+    font-weight: bold;
+    padding-bottom: 5%;
+    color: aliceblue;
+}
+div.events h1 a{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+
+button.eventsContact{
+    position: absolute;
+    top: 198%;
+    left: 43%;
+    z-index: -1;
+
+}
+
+/* Specials div */
+div.specials{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 63%;
+    position: absolute;
+    top: 204%;
+    left: 0;
+    color: aliceblue;
+    text-align: center;
+    z-index: -1;
+}
+div.specials h1{
+    margin-top: 15px;
+    text-shadow: 2px 2px 8px red;
+}
+
+div.specials h3{
+    margin-top: 15px;
+    text-shadow: 2px 2px 8px blue;
+}
+
+
+
+/*Footer div*/
+div.footer{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    top: 267%;
+    left: 0;
+    text-align: center;
+    color: aliceblue;
+    height: 250px;
+    font-size: 13px;
+}
+
+div.footer ul{
+    list-style: none;
+
+}
+
+div.footer ul a{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+
+div.footer img{
+    margin-top: 20px;
+    width: 75px;
+    border-radius: 50px;
+}
+
+
+
+ /* 
+div.emailClub{
+    background-color: aliceblue;
+    text-align: center;
+    border: solid 3px black;
+    padding: 5px;
+    border-radius: 8px;
+    position: absolute;
+    top: -100vw;
+    animation: emailClubEnter 10s ease-in 5s both,
+               emailClubEnter 10s ease-in 30s forwards reverse;
+}
+
+
+div.emailClub form input:invalid
+{
+    color: red;
+}
+
+
+div.emailClub form input:valid
+{
+    color: green;
+}
+ */
+
+
+
+
+/*Media queries*/
+@media screen and (height: 568px) and (width: 320px){
+    
+    header img.location{
+        left: 3%;
+    }
+
+    header img.phone{
+        left: 90%;
+    }
+
+    div.hours{
+        top: 58%;
+        height: 70%
+    }
+
+    div.announcements{
+        top: 130%;
+    }
+
+    div.announcements div{
+        padding-left: 8%;
+    }
+
+    img.banner2{
+        top:170%;
+    }
+
+    div.parties{
+        top: 175%;
+        left: 1%;
+    }
+
+    button.toParties{
+        top: 200%;
+        left: 35%;
+    }
+
+    div.events{
+        top: 215%;
+        left: 1%;
+    }
+
+    button.eventsContact{
+        top: 242%;
+        left: 37%;
+    }
+
+
+    div.specials{
+        top: 250%;
+    }
+
+    div.footer{
+        top: 312%;
+    }
+}
+
+@media screen and (height: 640px) and (width: 360px){
+    
+    header img.location{
+        left: 3%;
+    }
+
+    header img.phone{
+        left: 85%;
+    }
+
+    div.hours{
+        top: 58%;
+        left: 10%;
+        height: 40%
+    }
+
+    div.announcements{
+        top: 117%;
+    }
+
+    div.announcements div{
+        padding-left: 10%;
+    }
+
+    img.banner2{
+        top:155%;
+    }
+
+    div.parties{
+        top: 160%;
+        left: 8%;
+        width: 80%;
+        
+    }
+
+    button.toParties{
+        top: 182%;
+        left: 35%;
+    }
+
+    div.events{
+        top: 190%;
+        width: 80%;
+        left: 8%;
+    }
+
+    button.eventsContact{
+        top: 213.5%;
+        left: 38%;
+    }
+
+
+    div.specials{
+        top: 230%;
+    }
+
+    div.footer{
+        top: 293%;
+    }
+}
+
+@media screen and (min-height: 667px){
+    button.toParties{
+        top: 169%
+    }
+
+    button.eventsContact{
+        top: 196%;
+        left: 41%
+    }
+}
+
+@media screen and (height: 731px) and (width: 411px){
+    div.hours{
+        left: 10;
+    }
+    div.announcements{
+        top: 103%;
+    }
+
+    img.banner2{
+        top:143%;
+    }
+
+    div.parties{
+        top: 148%;
+        left: 10%;
+    }
+
+    button.toParties{
+        top: 165%;
+    }
+
+    div.events{
+        top: 175%;
+        left: 10%;
+    }
+
+    button.eventsContact{
+        top: 191%;
+    }
+
+
+    div.specials{
+        top: 199%;
+    }
+
+    div.footer{
+        top: 260%;
+    }
+}
+
+@media screen and (height: 776px) and (width: 412px){
+    div.hours{
+        left: 10;
+    }
+    div.announcements{
+        top: 96%;
+    }
+
+    button.reserve{
+        font-size: 2em;
+        left: 30%;
+    }
+
+    button.reserve img{
+        width: 25px;
+    }
+
+    img.banner2{
+        top:132%;
+    }
+
+    div.parties{
+        top: 138%;
+        left: 10%;
+    }
+
+    button.toParties{
+        top: 154%;
+    }
+
+    div.events{
+        top: 160%;
+        left: 10%;
+    }
+
+    button.eventsContact{
+        top: 175%;
+    }
+
+
+    div.specials{
+        top: 182%;
+    }
+
+    div.footer{
+        top: 230%;
+    }
+}
+
+
+@media screen and (height: 736px) and (width: 414px){
+    div.hours{
+        left: 10;
+    }
+    div.announcements{
+        top: 102%;
+    }
+
+    img.banner2{
+        top:142%;
+    }
+
+    div.parties{
+        top: 148%;
+        left: 10%;
+    }
+
+    button.toParties{
+        top: 165%;
+    }
+
+    div.events{
+        top: 175%;
+        left: 10%;
+    }
+
+    button.eventsContact{
+        top: 191%;
+    }
+
+
+    div.specials{
+        top: 198%;
+    }
+
+    div.footer{
+        top: 260%;
+    }
+}
+
+@media screen and (height: 823px) and (width: 411px){
+    
+    div.hours{
+        top:40%;
+        left: 10%
+    }
+    div.announcements{
+        top: 85%;
+    }
+
+    div.announcements div{
+        padding-left: 15%;
+    }
+
+    img.banner2{
+        top:125%;
+    }
+
+    div.parties{
+        top: 130%;
+        left: 10%;
+    }
+
+
+    button.toParties{
+        top: 145%;
+        left: 40%;
+    }
+
+
+    div.events{
+        top: 152%;
+        left: 10%;
+    }
+
+    button.eventsContact{
+        top: 166%;
+        left: 42%;
+    }
+
+
+    div.specials{
+        top: 175%;
+    }
+
+    div.footer{
+        top: 230%;
+    }
+}
+
+@media screen and (height: 812px) and (width: 375px){
+    
+    header img.location{
+        left: 3%;
+    }
+
+    header img.phone{
+        left: 85%;
+    }
+
+    div.hours{
+        top: 45%;
+        left: 10%;
+        height: 40%;
+        height: 32%;
+    }
+
+    div.announcements{
+        top: 90%;
+    }
+
+    div.announcements div{
+        padding-left: 10%;
+    }
+
+    img.banner2{
+        top:120%;
+        height: 60%;
+    }
+
+    div.parties{
+        top: 125%;
+        left: 8%;
+        width: 80%;
+        
+    }
+
+    button.toParties{
+        top: 142%;
+        left: 35%;
+    }
+
+    div.events{
+        top: 150%;
+        width: 80%;
+        left: 8%;
+    }
+
+    button.eventsContact{
+        top: 168.5%;
+        left: 38%;
+    }
+
+
+    div.specials{
+        top: 180%;
+    }
+
+    div.footer{
+        top: 230%;
+    }
+}
+
+@media screen and (min-height: 914px) and (min-width: 411px){
+    header h1{
+        font-size: 2.5em;
+    }
+
+    header img.location{
+        left: 3%;
+        width: 10%;
+    }
+
+    header img.phone{
+        left: 87%;
+        width: 10%;
+    }
+
+    nav ul{
+        font-size: 0.8em;
+    }
+
+    button.reserve{
+        width: 35%;
+        font-size: 24px;
+    }
+
+    button.reserve img{
+        width: 25px;
+        position: absolute;
+        left: 110px;
+    }
+
+    div.hours{
+        top: 45%;
+        left: 10%;
+        height: 40%;
+        height: 32%;
+    }
+
+    div.announcements{
+        top: 82%;
+    }
+
+    div.announcements div{
+        padding-left: 18%;
+    }
+
+    img.banner2{
+        top:110%;
+        height: 60%;
+    }
+
+    div.parties{
+        top: 115%;
+        left: 10%;
+        width: 80%;
+    }
+
+    
+
+    button.toParties{
+        top: 130.5%;
+        left: 38%;
+    }
+
+    div.events{
+        top: 137%;
+        width: 80%;
+        left: 10%;
+    }
+
+    button.eventsContact{
+        top: 153.5%;
+        left: 41%;
+    }
+
+
+    div.specials{
+        top: 170%;
+    }
+
+    div.footer{
+        top: 210%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background: none;
+    }
+
+    #background{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -2;
+        left: 0;
+    }
+
+
+    div.cover1{
+        height: 8%;
+    }
+
+    header h1 span{
+        font-size: 2em;
+    }
+
+    nav{
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        left: 15%;
+    }
+    nav ul{
+        font-size: 1.2em;
+        display: flex;
+        justify-content: end;
+
+    }
+
+    header img.location{
+        left: 10%;
+    }
+
+
+    header img.phone{
+        left: 80%;
+    }
+
+
+    button.reserve{
+        display: inline-block;
+        top:50%;
+        font-size: 2em;
+        text-align: left;
+        height: 7%;
+        width: 30%;
+        justify-content:space-around;
+        padding: 0;
+    }
+
+    button.reserve img{
+        width: 40px;
+        margin-left: 30px;        
+
+    }
+    
+    div.hours{
+        top:60%;
+        left: 8%
+        
+    }
+
+
+}
+
+
+
+    
+
+
+/*Key frames*/
+/*  
+@keyframes emailClubEnter{
+    from{transform: translateY(0vw);}
+    to{transform: translateY(230vw);}
+}
+*/
